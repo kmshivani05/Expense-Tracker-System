@@ -1,0 +1,21 @@
+Expense Category Classification- ML Model Summary
+
+
+Model used:J48 Decision Tree(form Weka)
+
+Dataset Summary:
+-Total Samples: 1470
+Attributes: Category (label), Withdrawal, Deposit, Balance
+
+Results:
+-Correct Predictions:1371
+-Accuracy: 93.54%
+
+Csv File: MyTransaction.csv
+Purpose: Classify each transaction into predefined categories like Food, Medical, Transport, etc.
+
+Trained locally using:
+Java + Maven
+Weka Library
+
+This model predicts the category of an expense using numerical transaction data.
